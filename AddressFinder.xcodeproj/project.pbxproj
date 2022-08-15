@@ -11,6 +11,7 @@
 		AC578D2428AA86B60066CC4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC578D2328AA86B60066CC4B /* ContentView.swift */; };
 		AC578D2628AA86B80066CC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC578D2528AA86B80066CC4B /* Assets.xcassets */; };
 		AC578D2928AA86B80066CC4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC578D2828AA86B80066CC4B /* Preview Assets.xcassets */; };
+		AC578D3128AA87910066CC4B /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC578D3028AA87910066CC4B /* MapModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		AC578D2328AA86B60066CC4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC578D2528AA86B80066CC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC578D2828AA86B80066CC4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC578D2F28AA872E0066CC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC578D3028AA87910066CC4B /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				AC578D2028AA86B60066CC4B /* AddressFinder */,
+				AC578D3028AA87910066CC4B /* MapModel.swift */,
 				AC578D1F28AA86B60066CC4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +55,7 @@
 		AC578D2028AA86B60066CC4B /* AddressFinder */ = {
 			isa = PBXGroup;
 			children = (
+				AC578D2F28AA872E0066CC4B /* Info.plist */,
 				AC578D2128AA86B60066CC4B /* AddressFinderApp.swift */,
 				AC578D2328AA86B60066CC4B /* ContentView.swift */,
 				AC578D2528AA86B80066CC4B /* Assets.xcassets */,
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC578D2428AA86B60066CC4B /* ContentView.swift in Sources */,
+				AC578D3128AA87910066CC4B /* MapModel.swift in Sources */,
 				AC578D2228AA86B60066CC4B /* AddressFinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = NJWKSQXR8C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AddressFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = NJWKSQXR8C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AddressFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
